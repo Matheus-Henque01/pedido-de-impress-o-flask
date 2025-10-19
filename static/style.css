@@ -1,0 +1,72 @@
+/* Estilo para todo o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilo para o container principal do formulário */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Estilo para títulos */
+h1 {
+    color: #007bff; /* Azul primário */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para campos de input e botão */
+input[type="text"], input[type="file"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
+}
+
+button {
+    background-color: #28a745; /* Verde */
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para mensagens (sucesso ou erro) */
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
